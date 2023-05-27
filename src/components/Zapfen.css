@@ -35,7 +35,7 @@
 }
 
 .number {
-  width: min(500px, 30%);
+  width: min(400px, 80%);
   height: 3rem;
   text-align: center;
   font-size: 1.5rem;
@@ -45,11 +45,11 @@
 }
 
 .slider {
+  width: min(400px, 80%);
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
   font-size: 1.5rem;
-  width: min(500px, 31%);
   align-items: center;
   justify-content: center;
 }
