@@ -15,10 +15,10 @@ export enum SYMBOLS {
 
 export default function Zapfen() {
   const [zapfenValue, setZapfenValue] = useState<string>("5");
-  const [zapfenDepth, setZapfenDepth] = useState(6);
+  const [zapfenDepth, setZapfenDepth] = useState(9);
 
   const debouncedValue = useDebounce<string>(zapfenValue, 500);
-  const debouncedDepth = useDebounce<number>(zapfenDepth, 50);
+  const debouncedDepth = useDebounce<number>(zapfenDepth, 100);
 
   const [lines, setlines] = useState<JSX.Element[]>([]);
 
