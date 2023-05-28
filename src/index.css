@@ -1,9 +1,9 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
+  background-color: #0b090b;
   background-image: radial-gradient(#202020 2.5px, transparent 2.5px);
   background-size: 50px 50px;
 }
@@ -14,5 +14,5 @@ body {
 }
 
 #root {
-  margin: 5rem auto;
+  margin: 5vh auto 0 auto;
 }
