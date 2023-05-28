@@ -1,5 +1,5 @@
-import { SYMBOLS } from "./Zapfen.tsx";
 import Cell from "./Cell.tsx";
+import { SYMBOLS } from "./Zapfen.tsx";
 
 export default function Line({
   index,

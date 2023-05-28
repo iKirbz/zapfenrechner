@@ -24,7 +24,7 @@
 }
 
 .scroll {
-  overflow-x: scroll;
+  overflow-x: auto;
   text-align: right;
   margin: auto;
   width: min(1000px, 100vw);

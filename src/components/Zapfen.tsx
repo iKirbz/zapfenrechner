@@ -1,6 +1,6 @@
 /* global BigInt */
 
-import React, { useEffect, useState, ChangeEvent } from "react";
+import React, { ChangeEvent, useEffect, useState } from "react";
 
 import { useDebounce } from "usehooks-ts";
 
