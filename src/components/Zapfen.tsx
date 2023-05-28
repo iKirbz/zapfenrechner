@@ -96,7 +96,6 @@ export default function Zapfen() {
     );
 
     setlines(zapfenCells);
-    console.log("HERE");
   }, [debouncedValue, debouncedDepth]);
 
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>): void => {
